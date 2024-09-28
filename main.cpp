@@ -15,7 +15,9 @@ int main(int argc, char *argv[])
         // Создаем и показываем основное окно
         MainWindow mainWindow;
         mainWindow.show();
+
+        return a.exec();
     }
 
-    return a.exec();
+    return 0;
 }
